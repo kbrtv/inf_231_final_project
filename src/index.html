@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <button data-modal="consultation" class="button button_main">
-                    заказать кОНСУЛЬТАЦИЮ
+                    Заказать консультацию
                 </button>
                 <div class="selection__link">
                     или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -93,10 +93,10 @@
                 </div>
             </div>
             <form action="#" class="form">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон">
-                <input name="email" required placeholder="Ваш e-mail" type="email">
-                <button class="form__btn">заказать кОНСУЛЬТАЦИЮ</button>
+                <input name="name" required placeholder="Ваше имя" type="text" autocomplete="off">
+                <input name="phone" required placeholder="Ваш телефон" autocomplete="off">
+                <input name="email" required placeholder="Ваш e-mail" type="email" autocomplete="off">
+                <button class="form__btn">Заказать консультацию</button>
             </form>
         </div>
     </section>
@@ -378,7 +378,7 @@
                         <img src="images/section6/1.png" alt="1">
                     </div>
                     <div class="comments__text">
-                        <span class="comments__item_header">Ирина Иванченко</span>
+                        <span class="comments__item_header">Болатова Дана</span>
                         <span class="comments__item_subheader">2 полумарафона</span>
                         <span class="comments__item_text">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.
                             Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
@@ -393,7 +393,7 @@
                         <img src="images/section6/2.png" alt="2">
                     </div>
                     <div class="comments__text">
-                        <span class="comments__item_header">Иван Сёмочкин</span>
+                        <span class="comments__item_header">Мукушев Алмас</span>
                         <span class="comments__item_subheader">1 полумарафон</span>
                         <span class="comments__item_text">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. 
                             Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.
@@ -406,7 +406,7 @@
                         <img src="images/section6/3.png" alt="3">
                     </div>
                     <div class="comments__text">
-                        <span class="comments__item_header">Юлия Дашкина</span>
+                        <span class="comments__item_header">Жакупова Самал</span>
                         <span class="comments__item_subheader">2 полумарафона</span>
                         <span class="comments__item_text">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
                             <br><br>
@@ -420,10 +420,11 @@
     </section>
     <footer class="footer">
         <div class="footer__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315357916!3d55.76839498055753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2sMyasnitskiy%20Proyezd%2C%204%2F3%2C%20Moskva%2C%20Russia%2C%20107078!5e0!3m2!1sen!2skz!4v1597360131724!5m2!1sen!2skz"   style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7428.034400803899!2d76.92507697713816!3d43.26074665771393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836ea8ac5ffcc3%3A0xe27198c2d5985f35!2sMEGA%20Park!5e0!3m2!1sru!2skz!4v1639766867475!5m2!1sru!2skz"style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315357916!3d55.76839498055753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2sMyasnitskiy%20Proyezd%2C%204%2F3%2C%20Moskva%2C%20Russia%2C%20107078!5e0!3m2!1sen!2skz!4v1597360131724!5m2!1sen!2skz" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
         </div>
         <div class="footer__info">
-            <div class="footer__header">Алматы, Панфилова 34, д.3с1</div>
+            <div class="footer__header">Алматы, Макатаева 127/1, 2 этаж</div>
             <div class="footer__number">
                 8 (747) 922-89-74
             </div>
@@ -452,15 +453,12 @@
                 и мы перезвоним вам в течении 10 минут
             </div>
             <form action="#" class="modal__form">
-                <input id='name' name="name" required placeholder="Ваше имя" type="text">
-                <input id="surname" name="surname" required placeholder="Ваша фамилия" type="text">
-                <input id="phone" name="phone" placeholder="Ваш телефон">
-                <input id="email" name="email" required placeholder="Ваш e-mail" type="email">
-                <input id="city" name="city" required placeholder="Город" type="text">
-                <input id="street" name="street" required placeholder="Улица" type="text">
-                <input id="home" name="home" required placeholder="Номер дома" type="text">
-                <input id="apartment" name="apartment" required placeholder="Номер кв" type="text">
-                <button id="BTN" class="modal__btn">заказать кОНСУЛЬТАЦИЮ</button>
+                <input id='name' name="name" required placeholder="Ваше имя" type="text" autocomplete="off">
+                <input id="surname" name="surname" required placeholder="Ваша фамилия" type="text" autocomplete="off">
+                <input id="phone" name="phone" placeholder="Ваш телефон" autocomplete="off">
+                <input id="email" name="email" required placeholder="Ваш e-mail" type="email" autocomplete="off">
+                <input id="city" name="city" required placeholder="Город" type="text" autocomplete="off">
+                <button id="BTN" class="modal__btn">Заказать консультацию</button>
             </form>
         </div>
         <div class="modal" id="order">
@@ -474,9 +472,9 @@
                 Заполните форму заявки
             </div>
             <form action="#" class="modal__form">
-                <input name="name" required placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон">
-                <input name="email" required placeholder="Ваш e-mail" type="email">
+                <input name="name" required placeholder="Ваше имя" type="text" autocomplete="off">
+                <input name="phone" required placeholder="Ваш телефон" autocomplete="off">
+                <input name="email" required placeholder="Ваш e-mail" type="email" autocomplete="off">
                 <button class="modal__btn">заказать</button>
             </form>
         </div>
@@ -498,10 +496,7 @@
     </a>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
